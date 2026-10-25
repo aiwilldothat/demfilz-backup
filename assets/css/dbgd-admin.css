@@ -1,0 +1,172 @@
+.dbgd-wrap .dbgd-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 16px 20px;
+	margin: 16px 0;
+	max-width: 880px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, .04 );
+}
+
+.dbgd-wrap .dbgd-card h2 {
+	margin-top: 4px;
+}
+
+.dbgd-status-bar {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 10px 16px;
+	max-width: 880px;
+	margin-top: 12px;
+}
+
+.dbgd-dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #c3c4c7;
+}
+
+.dbgd-dot--on {
+	background: #46b450;
+}
+
+.dbgd-dot--off {
+	background: #d63638;
+}
+
+.dbgd-redirect {
+	display: inline-block;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 6px 10px;
+	word-break: break-all;
+}
+
+.dbgd-check {
+	display: block;
+	margin: 6px 0;
+}
+
+.dbgd-progress {
+	margin-top: 14px;
+}
+
+.dbgd-progress__bar {
+	height: 16px;
+	background: #f0f0f1;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.dbgd-progress__bar span {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: linear-gradient( 90deg, #2271b1, #46b450 );
+	transition: width .3s ease;
+}
+
+.dbgd-progress__msg {
+	margin: 8px 2px 0;
+	color: #50575e;
+	font-size: 13px;
+}
+
+.dbgd-table th,
+.dbgd-table td {
+	vertical-align: middle;
+}
+
+.dbgd-log {
+	max-height: 280px;
+	overflow: auto;
+	background: #1d2327;
+	color: #c3c4c7;
+	border-radius: 6px;
+	padding: 12px 14px;
+	font-family: Consolas, Menlo, Monaco, monospace;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+.dbgd-log__line--success {
+	color: #68de7c;
+}
+
+.dbgd-log__line--warning {
+	color: #f2d675;
+}
+
+.dbgd-log__line--error {
+	color: #ff8a8a;
+}
+
+.dbgd-restore-box {
+	border-color: #2271b1;
+}
+
+.dbgd-connect-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.dbgd-connect-btn .dashicons {
+	line-height: 1;
+}
+
+.dbgd-connect-btn.disabled {
+	pointer-events: none;
+	opacity: .5;
+}
+
+.dbgd-advanced {
+	margin-top: 12px;
+	border-top: 1px solid #f0f0f1;
+	padding-top: 10px;
+}
+
+.dbgd-advanced > summary {
+	cursor: pointer;
+	font-weight: 600;
+	color: #2271b1;
+}
+
+.dbgd-authmode {
+	margin: 12px 0 6px;
+}
+
+.dbgd-ownkeys {
+	margin-left: 6px;
+	padding-left: 14px;
+	border-left: 3px solid #f0f0f1;
+}
+
+.dbgd-pro-card {
+	border-color: #f0b849;
+}
+
+.dbgd-pro-card h2::before {
+	content: "★ ";
+	color: #f0b849;
+}
+
+.dbgd-pro-note {
+	background: #fff8e5;
+	border: 1px solid #f0d38a;
+	border-radius: 6px;
+	padding: 8px 12px;
+	color: #7a5b00;
+	font-size: 13px;
+}
+
+.dbgd-pro-note a {
+	font-weight: 600;
+}
